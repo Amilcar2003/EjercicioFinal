@@ -1,0 +1,65 @@
+* {
+    margin: 20px;
+    padding: 2px;
+}
+
+body 
+{
+    background-image: url('Pictures/oo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Bahnschrift, "Arial";
+    position: relative;
+  
+}
+
+#ENCABEZADO {
+    text-align: center;
+    color:black;
+    font-size: 40px;
+    width: 400px;
+    margin: 6px auto;
+}
+
+#CONTENIDO {
+    width: 400px;
+    margin: 6px auto;
+    color: white;
+}
+
+#PIE {
+    text-align: center;
+    width: 600px;
+    margin: 6px auto;
+    color: black;
+    font-size: 25px;
+}
+
+h1 {
+    display: inline-block;
+    position: relative;
+}
+
+    h1::after, h1::before {
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 5px;
+        background-color: black;
+        top: 0.6em;
+    }
+
+    h1::before {
+        left: -70px;
+    }
+
+    h1::after {
+        right: -70px;
+    }
+
+
+
+h2 {
+    font-size: 30px;
+}

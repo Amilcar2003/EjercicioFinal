@@ -1,0 +1,40 @@
+﻿<!doctype html>
+<head>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>REGISTRO</title>
+</head>
+<body>
+
+    <header>
+        <div align="center" id="ENCABEZADO">
+            <h1>REGISTRO</h1>
+        </div>
+    </header>
+
+    <section>
+        <div id="CONTENIDO">
+            <form method="post" action="USUARIOS.php">
+                <div class="form-group">
+                    <label for="NOMBRE">Ingrese Usuario</label>
+                    <input type="text" name="NOMBRE" class="form-control" placeholder="Ingrese Usuario" required>
+                </div>
+                <div class="form-group">
+                    <label for="CONTRASE�A">Password</label>
+                    <input type="password" class="form-control" name="CONTRASE�A" placeholder="Ingrese Clave" required>
+                </div>
+                <div class="form-group" align="center">
+                    <input type="submit" value="INGRESAR" class="btn btn-primary btn-lg" required>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <footer align="center" id="PIE">
+        <p> Amilcar Corado&copy; 2020 </p>
+    </footer>
+</body>
+</html>
